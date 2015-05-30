@@ -1,4 +1,4 @@
-In Bbtv can be found the Symfony2 bundle with the backend code and the composer.json with the required components.
+In Bbtv can be found the Symfony2 bundle with the backend code and the composer.json with the required components and the services.yml for the LeaderoardService DI.
 
 In leaderboard-cli can be found the simple angular frontend app.
 
