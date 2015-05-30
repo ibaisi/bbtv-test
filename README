@@ -1,0 +1,9 @@
+In Bbtv can be found the Symfony2 bundle with the backend code and the composer.json with the required components.
+
+In leaderboard-cli can be found the simple angular frontend app.
+
+Regarding the "Bonus challenge (not required): Make your implementation automatically synchronize the scores in the view for all people who have that web page open." it's been done through poling, althoug a better way for doing this would be using websockets but given the time I haven't worked with php and angular I wouldn't have finished in time.
+
+Another improvement would be that the add points and add participant (another extra bonus :D) should be POST/PUT methods instead of GET to align with http standards.
+
+Stylesheets missing.
