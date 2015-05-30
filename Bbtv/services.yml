@@ -1,0 +1,9 @@
+parameters:
+#    parameter_name: value
+
+services:
+    leaderboard:
+        class: Bbtv\LeaderboardBundle\Services\LeaderboardService
+        arguments:
+            entityManager: "@doctrine.orm.entity_manager"
+            serializer: "@serializer"
