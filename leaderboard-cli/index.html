@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="leaderboardApp">
+<head>
+    <meta charset="utf-8">
+    <title>Leaderboard</title>
+    <script src="js/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+<body ng-controller="LeaderboardCtrl">
+<h2>Leaderboard</h2>
+<div>
+    <div ng-repeat="participant in participants">
+        <div ng-click="selectParticipant(participant)">
+            <span>{{participant.name}}</span>
+            <span>{{participant.score}}</span>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+{{selectedParticipant.name}} <button ng-click="addPoints(5)">Add 5 points</button>
+
+<hr>
+
+Or add a new user <input ng-model="newParticipant" type="text"> <button ng-click="addParticipant()">Add</button>
+
+</body>
+</html>

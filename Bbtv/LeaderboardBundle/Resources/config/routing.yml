@@ -1,0 +1,11 @@
+_leaderboard:
+    path:     /leaderboard
+    defaults: { _controller: BbtvLeaderboardBundle:Leaderboard:leaderboard }
+
+_add_points:
+    path:     /addPointsToParticipant/{participantId}/{points}
+    defaults: { _controller: BbtvLeaderboardBundle:Leaderboard:addPointsToParticipant }
+
+_add_participant:
+    path:     /addParticipant/{participantName}
+    defaults: { _controller: BbtvLeaderboardBundle:Leaderboard:addParticipant }
